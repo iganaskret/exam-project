@@ -1,3 +1,4 @@
+/*
 const burgerMenu = document.querySelector(".burger-menu");
 const hamburger = document.querySelector(".hamburger")
 const barLogo = document.querySelector(".bar-logo")
@@ -34,5 +35,39 @@ function showSlides(n) {
 
   slides[slideIndex-1].style.display = "block";
 };
+*/
 
 
+
+//fetching
+
+let myLink = "https://andreamakarova.dk/kea/wp-exam/wp-json/wp/v2/T-shirt?_embed";
+const template = document.querySelector("template").content;
+const parent = document.querySelector("main");
+
+function loadData(){
+fetch(myLink).then(e => e.json()).then(show);
+}
+
+function show(data){
+data.forEach(post => {
+
+
+
+    //clone
+    const clone = template.cloneNode(true);
+    //populate
+    const img = clone.querySelector("img");
+
+
+    img.src = post._embedded["wp:featuredmedia"][0].media_details.sizes.full.source_url;
+
+
+
+    //append
+    parent.appendChild(clone);
+}
+);
+}
+
+loadData(myLink);
