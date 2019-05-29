@@ -4,7 +4,9 @@ const barLogo = document.querySelector(".bar-logo")
 
 hamburger.addEventListener("click", () => {
     burgerMenu.classList.toggle("hide");
-    barLogo.classList.toggle("hide")
+     burgerMenu.style.zIndex = "1";
+
+    barLogo.classList.toggle("hide");
 });
 
 
