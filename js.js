@@ -1,4 +1,4 @@
-/*
+
 const burgerMenu = document.querySelector(".burger-menu");
 const hamburger = document.querySelector(".hamburger")
 const barLogo = document.querySelector(".bar-logo")
@@ -33,9 +33,9 @@ function showSlides(n) {
       slides[i].style.display = "none";
   };
 
-  slides[slideIndex-1].style.display = "block";
+  slides[slideIndex-1].style.display= "block";
 };
-*/
+
 
 
 
