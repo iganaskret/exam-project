@@ -420,7 +420,7 @@ video {
     border: 1px solid black;
     border-radius: 0;
     padding: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
 input {
@@ -445,6 +445,7 @@ textarea {
     padding: 6px;
     margin-bottom: 10px;
     border: 1px solid black;
+    margin-bottom: 40px;
 }
 
 @-moz-document url-prefix() {
