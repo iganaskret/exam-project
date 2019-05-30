@@ -361,3 +361,20 @@ video {
     width: 90%;
     padding-left: 5%;
 }
+
+/* about me page */
+.name {
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.6em;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-indent: 2px;
+    top: 100px;
+}
+
+#about-pic {
+    position: absolute;
+    top: 30%;
+}
