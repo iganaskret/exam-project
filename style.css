@@ -376,8 +376,7 @@ video {
     text-indent: 2px;
 }
 
-#about-pic {
-}
+#about-pic {}
 
 .about-content {
     padding-top: 50px;
@@ -398,35 +397,72 @@ video {
 
 /* form */
 
-.form-top{
-  padding-top: 100px;
+.form-top {
+    width: 400px;
+    padding-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-.panel{
-  box-shadow: 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12);
-  border-radius: 6px;
-    border: 0;
+.form-top h2{
+    margin-bottom: 30px;
+    font-size: 1.3em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
 }
+
+.form-top button{
+    float: right;
+    border: none;
+    font-size: 0.9em;
+}
+
+.panel {
+    border: 1px solid black;
+    border-radius: 0;
+    padding: 40px;
+    padding-bottom: 100px;
+}
+
+input {
+    width: 300px;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+select {
+    width: 315px;
+    padding: 6px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0px;
+    -webkit-appearance: none;
+}
+
+textarea {
+    width: 300px;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
 @-moz-document url-prefix() {
-    .form-control{
-      height: auto;
+    .form-control {
+        height: auto;
     }
 }
-.panel-primary{
-  background-color: #2c3e50;
-  color: #fff;
-}
-.panel-primary>.panel-heading {
-    color: #fff;
-    font-size: 20px;
-    background-color: #2c3e50;
-    border-color: #2c3e50;
-}
-.btn-warning{
-  background-color: transparent;
-  border-color: #bdc3c7;
+
+.panel-primary {
 }
 
+.panel-primary > .panel-heading {
 
+}
 
+.btn-warning {
+    background-color: transparent;
+    border-color: black;
+}
 
 

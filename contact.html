@@ -3,13 +3,19 @@
 
 <head>
     <meta charset="UTF-8" />
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="contact" content="2nd Semester Exam Project">
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
     <title>contact</title>
+
+   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="form.js"></script>
+
 </head>
 
 <body>
@@ -37,52 +43,57 @@
     <!--contact form will be here !-->
 
     <!-- Form Started -->
-        <div class="container form-top">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                    <div class="panel panel-danger">
-                        <div class="panel-body">
-                            <form id="reused_form">
-                                <div class="form-group">
-                                    <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
-                                    <input type="text" name="name" class="form-control" placeholder="Enter Name">
-                                </div>
-                                <div class="form-group">
-                                    <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
-                                    <input type="email" name="email" class="form-control" placeholder="Enter Email">
-                                </div>
-                                <div class="form-group">
-                                    <label><i class="fa fa-envelope" aria-hidden="true"></i> Type</label>
-                                    <select name="cars">
-                                        <option value="Death">Death</option>
-                                        <option value="Justice">Justice</option>
-                                        <option value="Some other Tarot card">Some other Tarot card</option>
-                                        <option value="Another card">Another card</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
-                                    <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <button class="btn btn-raised btn-block btn-danger">Post &rarr;</button>
-                                </div>
-                            </form>
-                            <div id="error_message" style="width:100%; height:100%; display:none; ">
-                                <h4>
-                                    Error
-                                </h4>
-                                Sorry there was an error sending your form.
+    <div class="container form-top">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                <div class="panel panel-danger">
+                    <div class="panel-body">
+                        <h2>ORDER YOUR T-SHIRT HERE</h2>
+                        <form id="reused_form">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" placeholder="Name">
                             </div>
-                            <div id="success_message" style="width:100%; height:100%; display:none; ">
-                                <h2>Success! Your Message was Sent Successfully.</h2>
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" placeholder="E-mail">
                             </div>
+                            <div class="form-group">
+                                <select name="products">
+                                    <option value="select-product" selected>Choose product</option>
+                                    <option value="Justice">Justice</option>
+                                    <option value="Some other Tarot card">Some other Tarot card</option>
+                                    <option value="Another card">Another card</option>
+                                </select>
+                            </div>
+                               <div class="form-group">
+                                <select name="size">
+                                    <option value="select-size" selected>Choose size</option>
+                                    <option value="Death">S</option>
+                                    <option value="Justice">M</option>
+                                    <option value="Some other Tarot card">L</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea rows="3" name="message" class="form-control" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-raised btn-block btn-danger">SUBMIT ORDER </button>
+                            </div>
+                        </form>
+                        <div id="error_message" style="width:100%; height:100%; display:none; ">
+                            <h4>
+                                Error
+                            </h4>
+                            Sorry there was an error sending your form.
+                        </div>
+                        <div id="success_message" style="width:100%; height:100%; display:none; ">
+                            <h2>Success! Your Message was Sent Successfully.</h2>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Form Ended -->
+    </div>
+    <!-- Form Ended -->
 
     <article>
         <h1>I'd love to hear from you</h1> <br>
