@@ -366,17 +366,33 @@ video {
 
 /* about me page */
 .name {
-    position: absolute;
+    padding-top: 100px;
+    padding-bottom: 50px;
     font-family: 'Oswald', sans-serif;
     font-size: 2.6em;
     text-align: center;
     font-weight: 500;
     letter-spacing: 4px;
     text-indent: 2px;
-    top: 100px;
 }
 
 #about-pic {
-    position: absolute;
-    top: 30%;
 }
+
+.about-content {
+    padding-top: 50px;
+    padding-left: 20px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.about-content h2 {
+    padding-bottom: 20px;
+}
+
+.about-content p {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-left: 2px solid black;
+}
+
