@@ -245,7 +245,10 @@ header {
     width: 40%;
     padding-top: 3%;
     padding-left: 3%;
+}
 
+.bar-logo-big {
+    display: none;
 }
 
 .index-logo {
@@ -287,7 +290,6 @@ header {
 
 .hide {
     display: none;
-
 }
 
 .selected {
@@ -403,14 +405,15 @@ video {
     margin-left: 50px;
     margin-right: 50px;
 }
-.form-top h2{
+
+.form-top h2 {
     margin-bottom: 30px;
     font-size: 1.3em;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
 }
 
-.form-top button{
+.form-top button {
     float: right;
     border: none;
     font-size: 0.9em;
@@ -454,12 +457,9 @@ textarea {
     }
 }
 
-.panel-primary {
-}
+.panel-primary {}
 
-.panel-primary > .panel-heading {
-
-}
+.panel-primary > .panel-heading {}
 
 .btn-warning {
     background-color: transparent;
@@ -470,3 +470,71 @@ textarea {
     margin-left: 45px;
 }
 
+@media screen and (min-width: 1000px) {
+    .title-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        padding-top: 0;
+        margin-top: 0;
+        transform: translateY(-100px);
+    }
+
+    header {
+        display: none;
+    }
+
+    a {
+        display: block;
+        margin: auto;
+        width: 17%;
+        padding: 0;
+        padding-top: 2%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .bar-logo-big {
+        display: inline;
+        width: 100%;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .burger-menu {
+    position: inherit;
+    text-transform: uppercase;
+    font-weight: 300i;
+    line-height: 300%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    cursor: pointer;
+}
+
+nav a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 2px solid black;
+    transition: 0.4s;
+}
+
+.bottom-nav a:after {
+    border-bottom: 2px solid white;
+}
+
+
+nav a:hover:after {
+    width: 100%;
+}
+
+}
