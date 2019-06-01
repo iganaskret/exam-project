@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="contact" content="2nd Semester Exam Project">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
     <title>contact</title>
 
-   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-   <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="style.css">
     <script src="form.js"></script>
 
@@ -40,76 +40,82 @@
         <a class="selected" href="contact.html">contact</a>
     </nav>
 
-    <!--contact form will be here !-->
+    <a href="index.html"><img class="bar-logo-big" src="images/logo-1.png" alt="logo"></a>
+    <a href="collections.html" id="nav1" class="hide-small">collections</a><br>
+    <a href="illustrations.html" id="nav2" class="hide-small">other works</a><br>
+    <a href="about.html" id="nav3" class="hide-small">about me</a><br>
+    <a href="contact.html" id="nav4" class="hide-small">contact</a>
 
-    <!-- Form Started -->
-    <div class="container form-top">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                <div class="panel panel-danger">
-                    <div class="panel-body">
-                        <h2>ORDER YOUR T-SHIRT HERE</h2>
-                        <form id="reused_form">
-                            <div class="form-group">
-                                <input type="text" name="name" class="form-control" placeholder="Name">
+    <!--contact form will be here !-->
+    <div class="grid">
+        <!-- Form Started -->
+        <div class="container form-top">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                    <div class="panel panel-danger">
+                        <div class="panel-body">
+                            <h2>ORDER YOUR T-SHIRT HERE</h2>
+                            <form id="reused_form">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control" placeholder="E-mail">
+                                </div>
+                                <div class="form-group">
+                                    <select name="products">
+                                        <option value="select-product" selected>Choose product</option>
+                                        <option value="Justice">Justice</option>
+                                        <option value="Some other Tarot card">Some other Tarot card</option>
+                                        <option value="Another card">Another card</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <select name="size">
+                                        <option value="select-size" selected>Choose size</option>
+                                        <option value="Death">S</option>
+                                        <option value="Justice">M</option>
+                                        <option value="Some other Tarot card">L</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <textarea rows="3" name="message" class="form-control" placeholder="Your Message"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-raised btn-block btn-danger">SUBMIT ORDER </button>
+                                </div>
+                            </form>
+                            <div id="error_message" style="width:100%; height:100%; display:none; ">
+                                <h4>
+                                    Error
+                                </h4>
+                                Sorry there was an error sending your form.
                             </div>
-                            <div class="form-group">
-                                <input type="email" name="email" class="form-control" placeholder="E-mail">
+                            <div id="success_message" style="width:100%; height:100%; display:none; ">
+                                <h2>Success! Your Message was Sent Successfully.</h2>
                             </div>
-                            <div class="form-group">
-                                <select name="products">
-                                    <option value="select-product" selected>Choose product</option>
-                                    <option value="Justice">Justice</option>
-                                    <option value="Some other Tarot card">Some other Tarot card</option>
-                                    <option value="Another card">Another card</option>
-                                </select>
-                            </div>
-                               <div class="form-group">
-                                <select name="size">
-                                    <option value="select-size" selected>Choose size</option>
-                                    <option value="Death">S</option>
-                                    <option value="Justice">M</option>
-                                    <option value="Some other Tarot card">L</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <textarea rows="3" name="message" class="form-control" placeholder="Your Message"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <button class="btn btn-raised btn-block btn-danger">SUBMIT ORDER </button>
-                            </div>
-                        </form>
-                        <div id="error_message" style="width:100%; height:100%; display:none; ">
-                            <h4>
-                                Error
-                            </h4>
-                            Sorry there was an error sending your form.
-                        </div>
-                        <div id="success_message" style="width:100%; height:100%; display:none; ">
-                            <h2>Success! Your Message was Sent Successfully.</h2>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Form Ended -->
+        <div>
+            <article class="contact-article">
+                <h1>I'd love to hear from you</h1> <br>
+                <a href="tel:+45 91 94 11 99">+ 45 91 94 11 99</a> <br>
+                <a href="mailto:andry.art@gmail.com?body = Message"> andry.art@gmail.com</a>
+            </article>
+
+            <article class="contact-article">
+                <h1>Never miss a thing</h1> <br>
+                <a href="https://www.instagram.com/_art_t0mars/?hl=sk" target="_blank" class="icons"><img src="images/ig-black.png" alt="instagram icon"></a>
+                <a href="https://www.youtube.com" target="_blank" class="icons"><img src="images/youtube-black.png" alt="youtube icon" ></a>
+                <a href="https://www.facebook.com/andry.deliana" target="_blank" class="icons"><img src="images/fb-black.png" alt="facebook icon"></a>
+
+            </article>
+        </div>
     </div>
-    <!-- Form Ended -->
-
-    <article class="contact-article">
-        <h1>I'd love to hear from you</h1> <br>
-        <a href="tel:+45 91 94 11 99">+ 45 91 94 11 99</a> <br>
-        <a href="mailto:andry.art@gmail.com?body = Message"> andry.art@gmail.com</a>
-    </article>
-
-    <article class="contact-article">
-        <h1>Never miss a thing</h1> <br>
-        <a href="https://www.instagram.com/_art_t0mars/?hl=sk" target="_blank"><img src="images/ig-black.png" alt="instagram icon"></a>
-        <a href="https://www.youtube.com" target="_blank"><img src="images/youtube-black.png" alt="youtube icon"></a>
-        <a href="https://www.facebook.com/andry.deliana" target="_blank"><img src="images/fb-black.png" alt="facebook icon"></a>
-
-    </article>
-
-
     <script src="js.js"></script>
 </body>
 

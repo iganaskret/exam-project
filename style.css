@@ -36,13 +36,14 @@ article h1 {
     font-size: 110%;
     letter-spacing: 2px;
     text-align: left;
-    padding-left: 4%;
+    padding-left: 0%;
 }
 
 
 article a {
     text-transform: none;
-    padding-left: 4%;
+    padding-left: 0%;
+    padding-right: 4%;
     line-height: 200%;
 }
 
@@ -479,10 +480,9 @@ textarea {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 60%;
+        width: 54%;
         padding-top: 0;
         margin-top: 0;
-        /*transform: translateY(-100px); */
     }
 
     header {
@@ -525,39 +525,103 @@ textarea {
     #nav2 {
         position: absolute;
         left: -15%;
-        top: 35%;
+        top: 37.5%;
     }
 
     #nav3 {
         position: absolute;
         right: -15%;
-        top: -15%;
+        top: -18.5%;
     }
 
     #nav4 {
         position: absolute;
         right: -15%;
-        top: 35%;
+        top: 37.5%;
     }
 
     .hide-small a {
         text-decoration: none;
         color: black;
+        position: relative;
         cursor: pointer;
     }
 
-    /* hide-small a:after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 0%;
-        border-bottom: 2px solid black;
-        transition: 0.4s;
+    /* CONTACT PAGE */
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 70px;
     }
 
-    nav a:hover:after {
+    /* form */
+
+    .form-top {
+        width: 400px;
+        padding-top: 30px;
+        padding-left: 220px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .form-top h2 {
+        margin-bottom: 30px;
+        font-size: 1.6em;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+    }
+
+    .form-top button {
+        float: right;
+        border: none;
+        font-size: 1em;
+    }
+
+    .panel {
+        border: 1px solid black;
+        border-radius: 0;
+        padding: 40px;
+        padding-bottom: 100px;
+    }
+
+    input {
+        width: 300px;
+        padding: 6px;
+        margin-bottom: 10px;
+        border: 1px solid black;
+    }
+
+    /* contact me/ social media */
+
+    .contact-article {
+        margin-top: 0;
+        padding-top: 0;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .contact-article a {
+        margin-left: 0;
+    }
+
+    article h1 {
+        font-size: 110%;
+        letter-spacing: 2px;
+        text-align: left;
+        margin-top: 0;
+        padding-top: 30px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    article a {
+        text-transform: none;
         width: 100%;
-    } */
+    }
+
+    .icons {
+        display: inline;
+    }
+
 
 }
