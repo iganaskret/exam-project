@@ -524,8 +524,10 @@ textarea {
 
     #nav2 {
         position: absolute;
-        left: -15%;
-        top: 37.5%;
+        left: 4.2%;
+        bottom: 30%;
+        border: 1px solid red;
+        width: 150px;
     }
 
     #nav3 {
@@ -536,8 +538,10 @@ textarea {
 
     #nav4 {
         position: absolute;
-        right: -15%;
-        top: 37.5%;
+        right: 4.2%;
+        bottom: 30%;
+        border: 1px solid red;
+        width: 150px;
     }
 
     .hide-small a {
