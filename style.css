@@ -505,36 +505,45 @@ textarea {
     }
 
     .burger-menu {
-    position: inherit;
-    text-transform: uppercase;
-    font-weight: 300i;
-    line-height: 300%;
-}
+        position: inherit;
+        text-transform: uppercase;
+        font-weight: 300i;
+        line-height: 300%;
+        transform: rotate(270deg);
+        width: 50%;
+    }
 
-a {
-    text-decoration: none;
-    color: black;
-    position: relative;
-    cursor: pointer;
-}
+    #nav1 {
+        color: red;
+        margin: 0;
+        transform: translateY(500px);
 
-nav a:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0%;
-    border-bottom: 2px solid black;
-    transition: 0.4s;
-}
+    }
 
-.bottom-nav a:after {
-    border-bottom: 2px solid white;
-}
+    .burger-menu a {
+        text-decoration: none;
+        color: black;
+        position: relative;
+        cursor: pointer;
+    }
+
+    nav a:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        border-bottom: 2px solid black;
+        transition: 0.4s;
+    }
+
+    .bottom-nav a:after {
+        border-bottom: 2px solid white;
+    }
 
 
-nav a:hover:after {
-    width: 100%;
-}
+    nav a:hover:after {
+        width: 100%;
+    }
 
 }
