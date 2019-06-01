@@ -622,6 +622,10 @@ textarea {
     .icons {
         display: inline;
     }
+/* about me page */
 
+    #grid-about {
+        display: grid;
+    }
 
 }
