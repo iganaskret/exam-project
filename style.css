@@ -5,6 +5,15 @@
     text-transform: uppercase;
 }
 
+.body-index {
+    animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 h1 {
     font-family: 'Oswald', sans-serif;
     text-align: center;
