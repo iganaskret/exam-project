@@ -49,7 +49,7 @@ article a {
 
 .collection {
     display: block;
-    width: 70%;
+    width: 100%;
     left: 15%;
     right: 15%;
     position: absolute;
@@ -223,9 +223,9 @@ header {
     text-align: center;
     background-color: #D9C6E6;
     position: fixed;
-    bottom: 0%;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
+    bottom: 2.5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
 }
 
 .bottom-nav a {
@@ -752,4 +752,26 @@ textarea {
         margin-left: auto;
         margin-right: auto;
     }
+
+
+/*bootom navigation*/
+
+.bottom-nav {
+    width: 100%;
+    text-align: center;
+    background-color: #D9C6E6;
+    position: fixed;
+    bottom: 0%;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.bottom-nav a {
+    display: inline-block;
+    color: white;
+    font-size: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
 }
