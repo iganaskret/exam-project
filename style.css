@@ -694,24 +694,62 @@ textarea {
     }
 
     /* Next & previous buttons */
-.prev,
-.next {
-    position: absolute;
-    cursor: pointer;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    color: black;
-    font-weight: bold;
-    font-size: 24px;
-    transition: 0.6s ease;
-    border-radius: 0 2px 2px 0;
-    user-select: none;
-}
+    .prev,
+    .next {
+        position: absolute;
+        cursor: pointer;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        color: black;
+        font-weight: bold;
+        font-size: 24px;
+        transition: 0.6s ease;
+        border-radius: 0 2px 2px 0;
+        user-select: none;
+    }
 
 /* Position the "next button" to the right */
 .next {
     border-radius: 3px 0 0 3px;
 }
 }
+    /* Position the "next button" to the right */
+    .next {
+        border-radius: 3px 0 0 3px;
+    }
 
+    button {
+        border: 1px solid black;
+        font-size: 80%;
+        background: none;
+        cursor: pointer;
+    }
+
+    .collection-button {
+        display: block;
+        width: 30%;
+        height: 50px;
+        padding: 10px;
+        left:35%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 500;
+    }
+
+    .collection-button a {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .collection {
+        display: block;
+        width: 70%;
+        position: absolute;
+        top: 28%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
