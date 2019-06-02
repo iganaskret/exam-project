@@ -10,7 +10,6 @@ hamburger.addEventListener("click", () => {
     barLogo.classList.toggle("hide");
 });
 
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -71,3 +70,5 @@ data.forEach(post => {
 }
 
 loadData(myLink);
+
+
