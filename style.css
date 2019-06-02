@@ -235,6 +235,18 @@ header {
     font-size: 80%;
 }
 
+nav.menu a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 2px solid black;
+    transition: 0.4s;
+}
+
+
+
 /*images*/
 .title-image {
     width: 100%;
@@ -541,6 +553,22 @@ textarea {
         right: 4.2%;
         bottom: 30%;
         width: 150px;
+    }
+
+    #nav4:hover:after {
+        width: 76px;
+    }
+
+    #nav1:hover:after {
+        width: 113px;
+    }
+
+    #nav2:hover:after {
+        width: 119px;
+    }
+
+    #nav3:hover:after {
+        width: 85px;
     }
 
     .hide-small a {
