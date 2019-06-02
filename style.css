@@ -524,31 +524,32 @@ textarea {
         transform: rotate(270deg);
         width: 50%;
         padding: 0;
+        padding-bottom: 5px;
         margin: 0;
         font-size: 0.8em;
         letter-spacing: 3px;
     }
 
-    #nav1 {
+    #nav1, #nav5 {
         position: absolute;
         left: -15%;
         top: -15%;
     }
 
-    #nav2 {
+    #nav2, #nav6 {
         position: absolute;
         left: 4.2%;
         bottom: 30%;
         width: 150px;
     }
 
-    #nav3 {
+    #nav3, #nav7 {
         position: absolute;
         right: -15%;
         top: -18.5%;
     }
 
-    #nav4 {
+    #nav4, #nav8 {
         position: absolute;
         right: 4.2%;
         bottom: 30%;
@@ -569,6 +570,26 @@ textarea {
 
     #nav3:hover:after {
         width: 85px;
+    }
+
+    #nav5:after {
+        width: 113px;
+        border-bottom: 3px solid black;
+}
+
+    #nav6:after {
+        width: 119px;
+        border-bottom: 3px solid black;
+    }
+
+    #nav7:after {
+         width: 85px;
+        border-bottom: 3px solid black;
+    }
+
+    #nav8:after {
+        width: 76px;
+        border-bottom: 3px solid black;
     }
 
     .hide-small a {
