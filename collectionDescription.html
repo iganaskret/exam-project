@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="collections" content="2nd Semester Exam Project">
+    <meta name="collection description" content="2nd Semester Exam Project">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
 
-    <title>collections</title>
+    <title>tarot collection</title>
 </head>
 
 <body>
@@ -28,6 +28,7 @@
         </label>
     </header>
 
+
     <nav class="burger-menu hide">
         <a class="selected" href="collections.html">collections</a><br>
         <a href="illustrations.html">other works</a><br>
@@ -44,23 +45,29 @@
         <a href="contact.html" id="nav4" class="hide-small">order</a>
     </nav>
 
-    <div class="slideshow-container1">
+    <h1 id="tarot">tarot collection</h1>
 
-        <div class="mySlides fade">
-            <div id="overlay"></div>
-            <img class="tarot-title" src="images/tarot-cover1.png" alt="tarot-title-image">
-            <h1 class="collection"> tarot collection</h1>
-            <button class="collection-button"><a href="collectionDescription.html">show more</a></button>
-        </div>
-        <div class="mySlides fade">
-            <div id="overlay"></div>
-<img class="tarot-title" src="images/tarot-cover1.png">
-            <h1 class="collection">more coming soon</h1>
-        </div>
+    <article class="grid-video">
 
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
+        <video poster="images/video.png" controls>
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+        <div class="tarot-text">
+            <h1>Why tarot cards?</h1>
+            <p> I find tarots and occult matters very fascinating because I think they work more with human subconsciousness than with actual divination and future reading, and all my art is trying to find myself, so it matches perfectly what tarot reading does. </p>
+            <p>For the drawings I just made the classic tarots with my style. Every card has something specific that can’t be missing because of the meaning of the card itself, so it was just a matter of representing those things in my own way, or in some cases do a totally different thing to express my interpretation of the cards.
+            </p>
+        </div>
+    </article>
+
+
+    <nav id="bottom-nav">
+        <a href="products.html">products</a>
+
+        <a href="prints.html">prints</a>
+    </nav>
 
     <script src="js.js"></script>
 </body>

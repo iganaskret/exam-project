@@ -80,8 +80,7 @@ article a {
     top: 28%;
 }
 
-.tarot {
-    padding-top: 20%;
+#tarot {
     font-size: 170%;
 }
 
@@ -411,7 +410,7 @@ video {
     padding-left: 20px;
     margin: 0;
     padding-bottom: 30px;
-    .transform: translateY(-50px);
+    transform: translateY(-50px);
     font-size: 0.9em;
 }
 
@@ -428,7 +427,7 @@ video {
     border-left: 2px solid black;
 }
 
-#last:after {
+.last:after {
     font-family: serif;
     font-style: normal;
     position: absolute;
@@ -945,6 +944,7 @@ article a {
         background-color: rgba(220, 200, 225, 0.6);
         padding: 0;
     }
+
     .tarot-title {
         width: 900px;
         height: 460px;
@@ -1010,7 +1010,7 @@ button {
 
 /*bottom navigation*/
 
-.bottom-nav {
+#bottom-nav {
     width: 100%;
     text-align: center;
     background-color: #D9C6E6;
@@ -1020,7 +1020,7 @@ button {
     padding-bottom: 10px;
 }
 
-.bottom-nav a {
+#bottom-nav a {
     display: inline-block;
     color: white;
     font-size: 80%;
@@ -1032,16 +1032,42 @@ button {
 /*video*/
 
 .grid-video {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-gap: 50px;
-        margin-left: 15%;
-        margin-right: 15%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 video {
     width: 100%;
     display: block;
+}
+
+#tarot {
+    font-size: 2.6em;
+    width: 30%;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-indent: 2px;
+    margin-left: 15%;
+}
+
+.tarot-text p {
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0;
+    width: 100%;
+}
+
+.tarot-text h1 {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px;
 }
 
 }
