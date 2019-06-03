@@ -4,15 +4,6 @@ const barLogo = document.querySelector(".bar-logo");
 const modalSizes = document.querySelector(".modal-sizes-bckg");
 const size = document.querySelector("#size");
 
-modalSizes.addEventListener("click", () => modalSizes.classList.add("hide"));
-size.addEventListener("click", () => modalSizes.classList.remove("hide"));
-
-hamburger.addEventListener("click", () => {
-    burgerMenu.classList.toggle("hide");
-    burgerMenu.style.zIndex = "1";
-
-    barLogo.classList.toggle("hide");
-});
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -43,37 +34,12 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
 };
 
+modalSizes.addEventListener("click", () => modalSizes.classList.add("hide"));
+size.addEventListener("click", () => modalSizes.classList.remove("hide"));
 
+hamburger.addEventListener("click", () => {
+    burgerMenu.classList.toggle("hide");
+    burgerMenu.style.zIndex = "1";
 
-
-//fetching
-
-let myLink = "https://andreamakarova.dk/kea/wp-exam/wp-json/wp/v2/T-shirt?_embed";
-const template = document.querySelector("template").content;
-const parent = document.querySelector("main");
-
-function loadData() {
-    fetch(myLink).then(e => e.json()).then(show);
-}
-
-function show(data) {
-    data.forEach(post => {
-
-
-
-        //clone
-        const clone = template.cloneNode(true);
-        //populate
-        const img = clone.querySelector("img");
-
-
-        img.src = post._embedded["wp:featuredmedia"][0].media_details.sizes.full.source_url;
-
-
-
-        //append
-        parent.appendChild(clone);
-    });
-}
-
-loadData(myLink);
+    barLogo.classList.toggle("hide");
+});
