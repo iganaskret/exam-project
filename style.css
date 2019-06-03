@@ -1028,6 +1028,22 @@ button {
     margin-right: auto;
     margin-bottom: 10px;
 }
+
+/*video*/
+
+.grid-video {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 50px;
+        margin-left: 15%;
+        margin-right: 15%;
+}
+
+video {
+    width: 100%;
+    display: block;
+}
+
 }
 
 /* animation svg */
