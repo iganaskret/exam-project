@@ -287,7 +287,6 @@ nav.menu a:after {
 .tarot-title {
     width: 100%;
     height: auto;
-
 }
 
 .products {
@@ -325,10 +324,6 @@ nav.menu a:after {
 .selected {
     border-bottom: 3px solid;
 }
-
-
-
-
 
 /* Slideshow container */
 .slideshow-container1 {
@@ -373,7 +368,6 @@ nav.menu a:after {
 
 /* Fading animation */
 .fade {
-
     animation-name: fade;
     animation-duration: 3s;
 }
@@ -940,10 +934,6 @@ article a {
         padding: 0;
     }
 
-    .slideshow-container1 img {
-        height: 460px;
-    }
-
     #overlay {
         position: absolute;
         width: 900px;
@@ -955,9 +945,12 @@ article a {
         background-color: rgba(220, 200, 225, 0.6);
         padding: 0;
     }
+    .tarot-title {
+        width: 900px;
+        height: 460px;
+    }
 
-    /* Next & previous buttons */
-    .prev,
+    Next & previous buttons .prev,
     .next {
         position: absolute;
         cursor: pointer;
@@ -972,14 +965,12 @@ article a {
         user-select: none;
     }
 
-    /* Position the "next button" to the right */
-    .next {
+    Position the "next button"to the right .next {
         border-radius: 3px 0 0 3px;
     }
 }
 
-/* Position the "next button" to the right */
-.next {
+Position the "next button"to the right .next {
     border-radius: 3px 0 0 3px;
 }
 
@@ -1017,8 +1008,7 @@ button {
     margin-right: auto;
 }
 
-
-/*bootom navigation*/
+/*bottom navigation*/
 
 .bottom-nav {
     width: 100%;
@@ -1071,7 +1061,7 @@ path {
     stroke-dashoffset: 6000;
     stroke: #000;
     stroke-width: 0.5;
-    animation: dash 6s forwards linear;
+    animation: dash 4s forwards linear;
 }
 
 @keyframes dash {
