@@ -289,6 +289,13 @@ nav.menu a:after {
     height: auto;
 }
 
+#img1 {
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 5%;
+    height: auto;
+}
+
 .products {
     width: 90%;
     padding-left: 5%;
@@ -1019,6 +1026,7 @@ button {
     bottom: 0%;
     padding-top: 0px;
     padding-bottom: 10px;
+    z-index: 1;
 }
 
 #bottom-nav a {
@@ -1122,38 +1130,44 @@ path {
 }
 
 .image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
 .container:hover .image {
-  opacity: 0.3;
+    opacity: 0.1;
 }
 
 .container:hover .middle {
-  opacity: 1;
+    opacity: 0.6;
+}
+
+.container:hover .text {
+    opacity: 1;
 }
 
 .text {
-  background-color: none;
-    border: 2px solid black;
-  color: black;
-  font-size: 13px;
-  padding: 16px 32px;
+    background-color: none;
+    color: black;
+    font-size: 13px;
+    padding: 16px 32px;
 }
 
 #title1 {
@@ -1163,5 +1177,63 @@ path {
     letter-spacing: 4px;
     text-indent: 2px;
     font-weight: 500;
+}
 
+
+#modal {
+    position: absolute;
+   background-color: none;
+    width: 90.5%;
+    height: 96.8%;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50.2%, -48%);
+    text-align: center;
+}
+
+.modal-title {
+    padding-top: 5%;
+    text-align: left;
+    padding-left: 5%;
+    font-size: 150%;
+}
+
+.modal-description {
+    padding-top: 3%;
+    text-align: left;
+    font-size: 95%;
+    padding-left: 0%;
+    width: 100%;
+}
+
+.modal-size,
+.modal-price {
+    padding-top: 5%;
+    padding-left: 5%;
+    text-align: left;
+    font-size: 80%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
+    text-indent: 2px;
+}
+
+.modal-size {
+    padding-top: 3%;
+}
+
+.thin {
+    font-weight: 200;
+    font-size: 100%;
+    letter-spacing: 0;
+}
+
+.modal-button {
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: center;
+    float: left;
+    width: 20%;
+    border: 2px solid black;
+    font-weight: 600;
 }
