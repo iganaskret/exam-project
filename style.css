@@ -402,7 +402,7 @@ video {
     padding-top: 100px;
     padding-bottom: 50px;
     font-family: 'Oswald', sans-serif;
-    font-size: 2.6em;
+    font-size: 2em;
     text-align: center;
     font-weight: 500;
     letter-spacing: 4px;
@@ -410,7 +410,10 @@ video {
 }
 
 #about-pic {
-    width: 100%;
+    width: 80%;
+    padding-bottom: 50px;
+    display: block;
+    margin: auto;
 }
 
 .about-content {
@@ -786,10 +789,10 @@ article a {
     /* form */
 
     .form-top {
+        position: absolute;
         width: 400px;
         padding-top: 30px;
-        padding-left: 220px;
-        margin-left: 50px;
+        left: 200px;
         margin-right: 50px;
     }
 
@@ -889,30 +892,34 @@ article a {
     /* about me page */
 
     .name {
-        text-align: left;
+        text-align: right;
         margin: 0;
         padding: 0;
-        margin-left: 15%;
+        margin-right: 18%;
         letter-spacing: 6px;
         font-size: 3.5em;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+    }
+
+    #about-pic {
+        width: 80%;
+       transform: translateY(-100px);
+        margin-left: 30px;
     }
 
     #grid-about {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 50px;
+        grid-gap: 40px;
         margin-left: 15%;
         margin-right: 15%;
     }
-
-    #grid-about img {}
 
     .about-content {
         padding-left: 20px;
         margin: 0;
         padding-bottom: 30px;
-        padding-top: 0;
+        padding-top: 60px;
     }
 
     .about-content h2 {
@@ -958,7 +965,7 @@ article a {
         height: 460px;
     }
 
-    Next & previous buttons .prev,
+    /* Next & previous buttons */ .prev,
     .next {
         position: absolute;
         cursor: pointer;
@@ -973,12 +980,14 @@ article a {
         user-select: none;
     }
 
-    Position the "next button"to the right .next {
+   /* Position the "next button"to the right */
+    .next {
         border-radius: 3px 0 0 3px;
     }
 }
 
-Position the "next button"to the right .next {
+/*Position the "next button"to the right */
+.next {
     border-radius: 3px 0 0 3px;
 }
 
@@ -1014,6 +1023,10 @@ button {
     top: 28%;
     margin-left: auto;
     margin-right: auto;
+}
+
+#soon {
+    top: 42%;
 }
 
 /*bottom navigation*/
