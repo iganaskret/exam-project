@@ -215,7 +215,7 @@ nav a:after {
     transition: 0.4s;
 }
 
-.bottom-nav a:after {
+#bottom-nav a:after {
     border-bottom: 2px solid white;
 }
 
@@ -232,19 +232,19 @@ header {
 
 /*bootom navigation*/
 
-.bottom-nav {
+#bottom-nav {
     width: 100%;
     text-align: center;
     background-color: #D9C6E6;
     position: fixed;
-    bottom: 2.5%;
+    bottom: 0%;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
 }
 
-.bottom-nav a {
-    margin-right: 20%;
-    margin-left: 20%;
+#bottom-nav a {
+    margin-right: 10%;
+    margin-left: 10%;
     color: white;
     font-size: 80%;
 }
