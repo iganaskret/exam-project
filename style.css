@@ -497,6 +497,7 @@ textarea {
         width: 70%;
         line-height: 30px;
         margin-left: 13px;
+     margin-bottom: 20px;
     }
 
     li {
@@ -536,6 +537,35 @@ textarea {
         font-size: 0.9em;
         font-weight: 600;
     }
+
+.modal-sizes-bckg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.modal-sizes {
+    display: block;
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 20%;
+    border: 0;
+}
+
+#close_btn-sizes {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    font-size: 4em;
+    cursor: pointer;
+    border: none;
+    top:50px;
+}
+
 
 /* contact me/ social media */
 
@@ -808,6 +838,33 @@ textarea {
         text-transform: none;
         width: 100%;
     }
+
+    .modal-sizes-bckg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.modal-sizes {
+    display: block;
+    color: white;
+    width: 40%;
+    margin: auto;
+    margin-top: 9%;
+    border: 0;
+}
+
+#close_btn-sizes {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    font-size: 4em;
+    cursor: pointer;
+    border: none;
+}
 
 
     /* about me page */
