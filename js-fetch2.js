@@ -1,8 +1,21 @@
-//fetching
 
+const burgerMenu = document.querySelector(".burger-menu");
+const hamburger = document.querySelector(".hamburger");
+const barLogo = document.querySelector(".bar-logo");
 let illustration = "https://andreamakarova.dk/kea/wp-exam/wp-json/wp/v2/illustration?_embed&per_page=20";
 const template2 = document.querySelector("#template2").content;
 const parent2 = document.querySelector("#main2");
+
+
+hamburger.addEventListener("click", () => {
+    burgerMenu.classList.toggle("hide");
+    burgerMenu.style.zIndex = "1";
+
+    barLogo.classList.toggle("hide");
+});
+
+//fetching
+
 
 function loadData(){
 fetch(illustration).then(e => e.json()).then(show);
@@ -30,3 +43,4 @@ data.forEach(post => {
 }
 
 loadData(illustration);
+

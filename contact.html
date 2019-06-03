@@ -40,14 +40,14 @@
         <a class="selected" href="contact.html">order</a>
     </nav>
 
-       <a href="index.html"><img class="bar-logo-big" src="images/logo-1.png" alt="logo"></a>
-       <a href="https://www.instagram.com/_art_t0mars/?hl=sk" target="_blank" class="icons"><img src="images/ig-black.png" alt="instagram icon" class="ig-icon"></a>
+    <a href="index.html"><img class="bar-logo-big" src="images/logo-1.png" alt="logo"></a>
+    <a href="https://www.instagram.com/_art_t0mars/?hl=sk" target="_blank" class="icons"><img src="images/ig-black.png" alt="instagram icon" class="ig-icon"></a>
     <nav class="menu">
         <a href="collections.html" id="nav1" class="hide-small">collections</a><br>
         <a href="illustrations.html" id="nav2" class="hide-small">other works</a><br>
         <a href="about.html" id="nav3" class="hide-small">about me</a><br>
         <a href="contact.html" id="nav8" class="hide-small">order</a>
-        </nav>
+    </nav>
 
     <!--contact form will be here !-->
     <div class="grid">
@@ -81,7 +81,7 @@
                                         <option value="Some other Tarot card">L</option>
                                     </select>
                                 </div>
-                                 <div class="form-group">
+                                <div class="form-group">
                                     <textarea rows="3" name="message" class="form-control" placeholder="Your address"></textarea>
                                 </div>
                                 <div class="form-group">
@@ -135,10 +135,28 @@
         </div>
     </div>
     <div class="modal-sizes-bckg hide">
-    <a id="close_btn-sizes">&times;</a>
-    <img src="images/sizes.jpg" class="modal-sizes ">
+        <a id="close_btn-sizes">&times;</a>
+        <img src="images/sizes.jpg" class="modal-sizes ">
     </div>
-    <script src="js.js"></script>
+    <script>
+        const burgerMenu = document.querySelector(".burger-menu");
+        const hamburger = document.querySelector(".hamburger");
+        const barLogo = document.querySelector(".bar-logo");
+        const modalSizes = document.querySelector(".modal-sizes-bckg");
+        const size = document.querySelector("#size");
+
+
+        modalSizes.addEventListener("click", () => modalSizes.classList.add("hide"));
+        size.addEventListener("click", () => modalSizes.classList.remove("hide"));
+
+        hamburger.addEventListener("click", () => {
+            burgerMenu.classList.toggle("hide");
+            burgerMenu.style.zIndex = "1";
+
+            barLogo.classList.toggle("hide");
+        });
+
+    </script>
 </body>
 
 </html>

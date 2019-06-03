@@ -343,11 +343,11 @@ nav.menu a:after {
 
 
 /* Hide the images by default */
-.mySlides {
+.mySlides, .mySlides2 {
     display: none;
 }
 
-.mySlide {
+.mySlide, .mySlide2 {
     display: none;
 }
 
@@ -983,6 +983,31 @@ article a {
    /* Position the "next button"to the right */
     .next {
         border-radius: 3px 0 0 3px;
+    }
+
+    /* big illustration page */
+
+        .slideshow-container2 {
+        position: relative;
+        width: 900px;
+        height: 460px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 0;
+    }
+
+    #overlay {
+        position: absolute;
+        width: 900px;
+        height: 460px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        background-color: rgba(220, 200, 225, 0.6);
+        padding: 0;
     }
 }
 
