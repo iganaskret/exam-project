@@ -3,12 +3,14 @@ const hamburger = document.querySelector(".hamburger");
 const barLogo = document.querySelector(".bar-logo");
 const modalSizes = document.querySelector(".modal-sizes-bckg");
 const size = document.querySelector("#size");
+const bottomNav = document.querySelector("#bottom-nav");
 
 hamburger.addEventListener("click", () => {
     burgerMenu.classList.toggle("hide");
     burgerMenu.style.zIndex = "1";
 
     barLogo.classList.toggle("hide");
+     bottomNav.classList.toggle("hide");
 });
 
 

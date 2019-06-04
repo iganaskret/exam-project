@@ -131,6 +131,7 @@ button:hover {
     right: 5%;
     top: 2%;
     cursor: pointer;
+
 }
 
 .hamburger:hover {
@@ -246,7 +247,7 @@ nav#bottom-nav {
     bottom: 0%;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
-    z-index: 0;
+    z-index: 1;
 }
 
 nav#bottom-nav a {
@@ -300,11 +301,7 @@ nav.menu a:after {
 #img1,
 #img2,
 #img3,
-<<<<<<< HEAD
-    {
-=======
 #img4 {
->>>>>>> origin/master
     width: 90%;
     padding-left: 5%;
     padding-top: 5%;
@@ -726,8 +723,10 @@ article a {
     #img2,
     #img3,
     #img1,
+    #img4,
     .products2,
-    .products3 {
+    .products3
+     {
         height: 400px;
         width: auto;
         padding: 0%;
@@ -737,10 +736,11 @@ article a {
         margin-top: 5%;
     }
 
-.products3, #img1 {
+#img1, #img4 {
         height: 500px;
 
     }
+
 
     div.container {
         transform: translateY(-6%);
@@ -760,10 +760,16 @@ article a {
     }
 
     div.products3 {
-        transform: translate(0%, 0%);
+        transform: translate(0%, -7.45%);
+        margin-left: 31.4%;
 
     }
 
+    div.products3 img {
+        height: 500px;
+        width: auto;
+       padding: 0%;
+    }
     .hide-small {
         display: block;
         text-transform: uppercase;
@@ -1396,6 +1402,16 @@ path {
     font-size: 120%;
     text-align: left;
     padding-left: 0%;
+    padding-top: 2%;
+    width: 100%;
+}
+
+.description1 {
+    font-size: 95%;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 2%;
+    width: 100%;
 }
 
 .products3 {
