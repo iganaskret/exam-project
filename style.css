@@ -36,8 +36,8 @@ p {
 }
 
 main {
-    padding-bottom: 15%;
-    padding-top: 1%;
+    padding-bottom: 18%;
+    padding-top: 10%;
 }
 
 .portfolio, .portfolio2, .portfolio3 {
@@ -191,6 +191,7 @@ button:hover {
 
 .burger-menu {
     position: fixed;
+    top: 0;
     width: 100%;
     height: 100%;
     padding-top: 15%;
@@ -237,22 +238,23 @@ header {
 
 /*bootom navigation*/
 
-#bottom-nav {
+nav#bottom-nav {
     width: 100%;
+    color: #7F579A;
     text-align: center;
-    background-color: #D9C6E6;
     position: fixed;
     bottom: 0%;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
-
+    z-index: 0;
 }
 
-#bottom-nav a {
+nav#bottom-nav a {
     margin-right: 10%;
     margin-left: 10%;
     color: white;
     font-size: 80%;
+    width: auto;
 }
 
 nav.menu a:after {
@@ -298,16 +300,19 @@ nav.menu a:after {
 #img1,
 #img2,
 #img3,
+<<<<<<< HEAD
     {
+=======
+#img4 {
+>>>>>>> origin/master
     width: 90%;
     padding-left: 5%;
     padding-top: 5%;
     height: auto;
-
 }
 
 .products {
-    width: 90%;
+    width: 100%;
     height: auto;
 }
 
@@ -360,7 +365,7 @@ nav.menu a:after {
 /* Hide the images by default */
 .mySlides,
 .mySlides2 {
-    display: none;
+    display: block;
 }
 
 .mySlide {
@@ -382,6 +387,14 @@ nav.menu a:after {
     border-radius: 0 2px 2px 0;
     user-select: none;
 }
+
+.prev2,
+.next2 {
+
+    display: none;
+}
+
+
 
 /* Position the "next button" to the right */
 .next {
@@ -709,7 +722,7 @@ article a {
         right: 5%;
     }
 
-    #img2 {
+    #img2, #img3, .products2{
         height: 400px;
         width: auto;
         padding: 0%;
@@ -804,6 +817,20 @@ article a {
         color: black;
         position: relative;
         cursor: pointer;
+    }
+
+    nav#bottom-nav a {
+        color: #7F579A;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    nav#bottom-nav {
+        background-color: white;
+    }
+
+    #bottom-nav a:after {
+        border-bottom: 2px solid #7F579A;
     }
 
     /* CONTACT PAGE */
@@ -976,6 +1003,11 @@ article a {
         padding: 0;
     }
 
+    .mySlides2 {
+        display: none;
+    }
+
+
     #overlay {
         position: absolute;
         width: 900px;
@@ -1030,6 +1062,7 @@ article a {
         transition: 0.6s ease;
         border-radius: 0 2px 2px 0;
         user-select: none;
+        display: block;
     }
 
     /* Position the "next button"to the right */
@@ -1231,7 +1264,7 @@ path {
 
 .container {
     position: relative;
-    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .image {
@@ -1314,6 +1347,8 @@ path {
 
 .modal-description1 {
     font-size: 120%;
+    text-align: left;
+    padding-left: 0%;
 }
 
 .modal-size,

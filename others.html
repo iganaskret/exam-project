@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="paintings" content="2nd Semester Exam Project">
+    <meta name="others" content="2nd Semester Exam Project">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
@@ -28,6 +28,15 @@
         </label>
     </header>
 
+    <a href="index.html"><img class="bar-logo-big" src="images/logo-1.png" alt="logo"></a>
+    <a href="https://www.instagram.com/_art_t0mars/?hl=sk" target="_blank" class="icons"><img src="images/ig-black.png" alt="instagram icon" class="ig-icon"></a>
+    <nav class="menu">
+        <a href="collections.html" id="nav1" class="hide-small">collections</a><br>
+        <a href="illustrations.html" id="nav6" class="hide-small">other works</a><br>
+        <a href="about.html" id="nav3" class="hide-small">about me</a><br>
+        <a href="contact.html" id="nav4" class="hide-small">order</a>
+    </nav>
+
 
     <nav class="burger-menu hide">
         <a href="collections.html">collections</a><br>
@@ -36,16 +45,25 @@
         <a href="contact.html">contact</a>
     </nav>
 
-      <main id="main3"></main>
+
+    <main id="main3" class="slideshow-container2">
+        <div class="mySlides2">
+            <img class="products2" src="images/IMG_6970.JPG" alt="others image">
+        </div>
+    </main>
+    <a class="prev2" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next2" onclick="plusSlides(1)">&#10095;</a>
     <template id="template3">
-        <img id="img3" class="products fade" src="" alt="other image">
+        <div class="mySlides2">
+            <img id="img3" class="products" src="" alt="illustration image">
+        </div>
     </template>
 
     <nav id="bottom-nav">
         <a href="illustrations.html">illustrations</a>
         <a class="selected">others</a>
     </nav>
-
+<script src="js-slides2.js"></script>
     <script src="js-fetch3.js"></script>
     <script src="js.js"></script>
 </body>
