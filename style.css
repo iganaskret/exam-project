@@ -338,18 +338,16 @@ nav.menu a:after {
     position: absolute;
     top: 0;
     left: 0;
-
 }
 
+.slideshow-container2 {}
 
 /* Hide the images by default */
-.mySlides, .mySlides2 {
+.mySlides,
+.mySlides2 {
     display: none;
 }
 
-.mySlide, .mySlide2 {
-    display: none;
-}
 
 /* Next & previous buttons */
 .prev,
@@ -693,6 +691,17 @@ article a {
         right: 5%;
     }
 
+    #img2 {
+        height: 400px;
+        width: auto;
+        padding: 0%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+
+    }
+
     .hide-small {
         display: block;
         text-transform: uppercase;
@@ -903,7 +912,7 @@ article a {
 
     #about-pic {
         width: 80%;
-       transform: translateY(-100px);
+        transform: translateY(-100px);
         margin-left: 30px;
     }
 
@@ -937,7 +946,8 @@ article a {
 
     /* categories page */
 
-    .slideshow-container1 {
+    .slideshow-container1,
+    .slideshow-container2 {
         position: relative;
         width: 900px;
         height: 460px;
@@ -965,7 +975,8 @@ article a {
         height: 460px;
     }
 
-    /* Next & previous buttons */ .prev,
+    /* Next & previous buttons */
+    .prev,
     .next {
         position: absolute;
         cursor: pointer;
@@ -980,14 +991,14 @@ article a {
         user-select: none;
     }
 
-   /* Position the "next button"to the right */
+    /* Position the "next button"to the right */
     .next {
         border-radius: 3px 0 0 3px;
     }
 
     /* big illustration page */
 
-        .slideshow-container2 {
+    .slideshow-container2 {
         position: relative;
         width: 900px;
         height: 460px;
@@ -1190,7 +1201,7 @@ path {
 
 
 .container:hover .image {
-    opacity: 0.1;
+    opacity: 0.05;
 }
 
 .container:hover .middle {
@@ -1220,7 +1231,7 @@ path {
 
 #modal {
     position: absolute;
-   background-color: none;
+    background-color: none;
     width: 90.5%;
     height: 96.8%;
     z-index: 1;
