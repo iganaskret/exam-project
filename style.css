@@ -298,16 +298,14 @@ nav.menu a:after {
 
 .products {
     width: 90%;
-    padding-left: 5%;
-    padding-top: 5%;
     height: auto;
 }
 
 .products2 {
-    width: 80%;
-    padding-left: 5%;
-    padding-top: 5%;
+    width: 70%;
     height: auto;
+    display: block;
+    margin: auto;
 }
 
 #overlay {
@@ -1011,17 +1009,6 @@ article a {
 
     /* big illustration page */
 
-    .slideshow-container2 {
-        position: relative;
-        width: 900px;
-        height: 460px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: auto;
-        margin-bottom: auto;
-        padding: 0;
-    }
-
     #overlay {
         position: absolute;
         width: 900px;
@@ -1033,11 +1020,6 @@ article a {
         background-color: rgba(220, 200, 225, 0.6);
         padding: 0;
     }
-}
-
-/*Position the "next button"to the right */
-.next {
-    border-radius: 3px 0 0 3px;
 }
 
 button {
