@@ -923,8 +923,8 @@ article a {
     .contact-article {
         margin-top: 0;
         padding-top: 0;
-        margin-left: 0;
         margin-bottom: 30px;
+        transform: translateX(110%);
     }
 
     .contact-article a {
