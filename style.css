@@ -40,6 +40,11 @@ main {
     padding-top: 1%;
 }
 
+.portfolio, .portfolio2, .portfolio3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
 article p {
     margin-top: 3%;
     margin-bottom: 12%;
@@ -290,7 +295,10 @@ nav.menu a:after {
     height: auto;
 }
 
-#img1, #img2, #img3,  {
+#img1,
+#img2,
+#img3,
+    {
     width: 90%;
     padding-left: 5%;
     padding-top: 5%;
@@ -1033,7 +1041,43 @@ article a {
         left: 20%;
     }
 
+    .portfolio {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 6px;
+        color: white;
+        font-weight: 500;
+        text-indent: 2px;
+        font-size: 4em;
+        position: absolute;
+        display: block;
+        left: 25%;
+    }
 
+     .portfolio2 {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 6px;
+        color: white;
+        font-weight: 500;
+        text-indent: 2px;
+        font-size: 4em;
+        position: absolute;
+        display: block;
+        left: 25%;
+        transform: translateY(100px);
+    }
+
+     .portfolio3 {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 6px;
+        color: white;
+        font-weight: 500;
+        text-indent: 2px;
+        font-size: 4em;
+        position: absolute;
+        display: block;
+        left: 25%;
+        transform: translateY(200px);
+    }
 
 
 }
