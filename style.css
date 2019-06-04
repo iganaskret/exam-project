@@ -355,12 +355,9 @@ nav.menu a:after {
     display: none;
 }
 
-<<<<<<< HEAD
 .mySlide {
     display: none;
 }
-=======
->>>>>>> origin/master
 
 /* Next & previous buttons */
 .prev,
@@ -1011,17 +1008,34 @@ article a {
 
     /* big illustration page */
 
-    #overlay {
+    /* Next & previous buttons */
+    .prev2,
+    .next2 {
         position: absolute;
-        width: 900px;
-        height: 460px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: auto;
-        margin-bottom: auto;
-        background-color: rgba(220, 200, 225, 0.6);
-        padding: 0;
+        cursor: pointer;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        color: black;
+        font-weight: bold;
+        font-size: 24px;
+        transition: 0.6s ease;
+        border-radius: 0 2px 2px 0;
+        user-select: none;
     }
+
+    /* Position the "next button"to the right */
+    .next2 {
+        right: 20%;
+    }
+
+    .prev2 {
+        left: 20%;
+    }
+
+
+
+
 }
 
 button {
