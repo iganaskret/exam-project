@@ -305,6 +305,13 @@ nav.menu a:after {
     height: auto;
 }
 
+.products2 {
+    width: 80%;
+    padding-left: 5%;
+    padding-top: 5%;
+    height: auto;
+}
+
 #overlay {
     position: absolute;
     width: 100%;
@@ -350,6 +357,12 @@ nav.menu a:after {
     display: none;
 }
 
+<<<<<<< HEAD
+.mySlide {
+    display: none;
+}
+=======
+>>>>>>> origin/master
 
 /* Next & previous buttons */
 .prev,
