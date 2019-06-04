@@ -28,6 +28,24 @@
         </label>
     </header>
 
+<a href="index.html"><img class="bar-logo-big" src="images/logo-1.png" alt="logo"></a>
+    <a href="https://www.instagram.com/_art_t0mars/?hl=sk" target="_blank" class="icons"><img src="images/ig-black.png" alt="instagram icon" class="ig-icon"></a>
+    <nav class="menu">
+        <a href="collections.html" id="nav1" class="hide-small">collections</a><br>
+        <a href="illustrations.html" id="nav6" class="hide-small">other works</a><br>
+        <a href="about.html" id="nav3" class="hide-small">about me</a><br>
+        <a href="contact.html" id="nav4" class="hide-small">order</a>
+    </nav>
+
+
+    <nav class="burger-menu hide">
+        <a href="collections.html">collections</a><br>
+        <a class="selected" href="illustrations.html">other works</a><br>
+        <a href="about.html">about me</a><br>
+        <a href="contact.html">contact</a>
+    </nav>
+
+
 
     <nav class="burger-menu hide">
         <a class="selected" href="collections.html">collections</a><br>
@@ -35,25 +53,44 @@
         <a href="about.html">about me</a><br>
         <a href="contact.html">contact</a>
     </nav>
-    <main id="main1"></main>
-    <template id="template1">
 
-        <div class="container">
+    <main id="main1" class="slideshow-container2">
+        <div class="mySlides2">
+            <div class="container products3">
 
-            <img id="img1" class="products fade image" src="" alt="T-shirt image">
-            <div id="modal" class="middle text">
-                <div class="text">
-                <h1 class="modal-title"></h1>
-                <p class="modal-description"></p>
-                <h2 class="modal-price">Price: <span class="thin">150 DKK</span></h2>
-                <h2 class="modal-size">Available sizes: <span class="thin"> S, M, L </span></h2>
-                <button class="modal-button"><a href="contact.html" target="_blank">order</a></button>
+                <img class=" fade image" src="images/IMG_3487%20(1).jpg" alt="T-shirt image">
+                <div id="modal" class="middle text">
+                    <div class="text">
+                        <h1 class="title">temprance</h1>
+                        <p class="description">Temperance is one of the most valuable virtues still today. The card shows a female angel pouring a liquid from a cup to another, patiently. She’s in the water with one foot, symbol of the distractions that can come through what you’re doing and that you have to ignore in order to reach your final goal (the crown at the end of the path in the back.</p>
+                        <h2 class="price">Price: <span class="thin">150 DKK</span></h2>
+                        <h2 class="size">Available sizes: <span class="thin"> S, M, L </span></h2>
+                        <button class="button"><a href="contact.html" target="_blank">order</a></button>
                     </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <a class="prev2" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next2" onclick="plusSlides(1)">&#10095;</a>
+
+    <template id="template1">
+        <div class="mySlides2">
+            <div class="container">
+
+                <img id="img1" class="products fade image" src="" alt="T-shirt image">
+                <div id="modal" class="middle text">
+                    <div class="text">
+                        <h1 class="modal-title"></h1>
+                        <p class="modal-description"></p>
+                        <h2 class="modal-price">Price: <span class="thin">150 DKK</span></h2>
+                        <h2 class="modal-size">Available sizes: <span class="thin"> S, M, L </span></h2>
+                        <button class="modal-button"><a href="contact.html" target="_blank">order</a></button>
+                    </div>
+                </div>
             </div>
         </div>
     </template>
-
-
 
 
 
@@ -61,6 +98,7 @@
         <a href="products.html" class="selected">T-shirts</a>
         <a href="prints.html">prints</a>
     </nav>
+    <script src="js-slides2.js"></script>
     <script src="js-fetch1.js"></script>
     <script src="js.js"></script>
 </body>
