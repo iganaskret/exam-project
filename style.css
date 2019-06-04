@@ -377,6 +377,7 @@ nav.menu a:after {
     transition: 0.6s ease;
     border-radius: 0 2px 2px 0;
     user-select: none;
+
 }
 
 .prev2,
@@ -713,7 +714,11 @@ article a {
         right: 5%;
     }
 
-    #img2, #img3, .products2{
+    #img2,
+    #img3,
+    #img1,
+    .products2,
+    .products3 {
         height: 400px;
         width: auto;
         padding: 0%;
@@ -721,6 +726,32 @@ article a {
         margin-left: auto;
         margin-right: auto;
         margin-top: 5%;
+    }
+
+.products3, #img1 {
+        height: 500px;
+
+    }
+
+    div.container {
+        transform: translateY(-6%);
+        width: 35%;
+        padding-left: 0%;
+        transform: translateX(90%);
+    }
+
+    div.text {
+
+        transform: translate(-5%,-5%);
+
+    }
+
+    .modal-button a, .button a {
+        float: inherit;
+    }
+
+    div.products3 {
+        transform: translate(0%, 0%);
 
     }
 
@@ -742,6 +773,7 @@ article a {
         position: absolute;
         left: -15%;
         top: -15%;
+        z-index: 1;
     }
 
     #nav2,
@@ -750,6 +782,7 @@ article a {
         left: 4.2%;
         bottom: 30%;
         width: 150px;
+        z-index: 1;
     }
 
     #nav3,
@@ -757,6 +790,7 @@ article a {
         position: absolute;
         right: -15%;
         top: -18.5%;
+        z-index: 1;
     }
 
     #nav4,
@@ -765,6 +799,7 @@ article a {
         right: 4.2%;
         bottom: 30%;
         width: 150px;
+        z-index: 1;
     }
 
     #nav4:hover:after {
@@ -1219,7 +1254,9 @@ path {
 
 .container {
     position: relative;
-    padding-left: 5%;
+
+    width: 100%;
+
 }
 
 .image {
@@ -1261,6 +1298,7 @@ path {
     color: black;
     font-size: 13px;
     padding: 16px 32px;
+    width: 90%;
 }
 
 #title1 {
@@ -1276,7 +1314,7 @@ path {
 #modal {
     position: absolute;
     background-color: none;
-    width: 90.5%;
+    width: 90%;
     height: 96.8%;
     z-index: 1;
     top: 50%;
@@ -1285,7 +1323,8 @@ path {
     text-align: center;
 }
 
-.modal-title {
+.modal-title,
+.title {
     padding-top: 5%;
     text-align: left;
     padding-left: 5%;
@@ -1300,14 +1339,29 @@ path {
     width: 100%;
 }
 
+.description {
+    padding-top: 3%;
+    text-align: left;
+    font-size: 95%;
+    padding-left: 5%;
+    width: 100%;
+}
+
 .modal-description1 {
     font-size: 120%;
     text-align: left;
     padding-left: 0%;
 }
 
+.products3 {
+    width: 90%;
+    padding-left: 5%;
+}
+
 .modal-size,
-.modal-price {
+.modal-price,
+.size,
+.price {
     padding-top: 5%;
     padding-left: 5%;
     text-align: left;
@@ -1317,7 +1371,8 @@ path {
     text-indent: 2px;
 }
 
-.modal-size {
+.modal-size,
+.size {
     padding-top: 3%;
 }
 
@@ -1327,7 +1382,8 @@ path {
     letter-spacing: 0;
 }
 
-.modal-button {
+.modal-button,
+.button {
     margin-top: 5%;
     margin-left: 5%;
     text-align: center;
@@ -1336,3 +1392,4 @@ path {
     border: 2px solid black;
     font-weight: 600;
 }
+
