@@ -11,7 +11,7 @@ hamburger.addEventListener("click", () => {
     barLogo.classList.toggle("hide");
 });
 
-details.addEventListener("click", () => modal.classList.remove("hide"));
+
 modalSizes.addEventListener("click", () => modalSizes.classList.add("hide"));
 size.addEventListener("click", () => modalSizes.classList.remove("hide"));
 

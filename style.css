@@ -37,7 +37,7 @@ p {
 
 main {
     padding-bottom: 15%;
-    padding-top: 12%;
+    padding-top: 1%;
 }
 
 article p {
@@ -240,6 +240,7 @@ header {
     bottom: 0%;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
+
 }
 
 #bottom-nav a {
@@ -289,11 +290,12 @@ nav.menu a:after {
     height: auto;
 }
 
-#img1 {
+#img1, #img2, #img3,  {
     width: 90%;
     padding-left: 5%;
     padding-top: 5%;
     height: auto;
+
 }
 
 .products {
@@ -1176,6 +1178,7 @@ path {
 
 .container {
     position: relative;
+    padding-right: 5%;
 }
 
 .image {
@@ -1254,6 +1257,10 @@ path {
     font-size: 95%;
     padding-left: 0%;
     width: 100%;
+}
+
+.modal-description1 {
+    font-size: 120%;
 }
 
 .modal-size,

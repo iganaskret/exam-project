@@ -18,7 +18,7 @@ function show(data) {
         //populate
         const img4 = clone4.querySelector("#img4");
         const title = clone4.querySelector(".modal-title");
-        const description = clone4.querySelector(".modal-description");
+        const description = clone4.querySelector(".modal-description1");
 
 
         img4.src = post._embedded["wp:featuredmedia"][0].media_details.sizes.full.source_url;
