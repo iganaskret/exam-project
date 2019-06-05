@@ -1183,7 +1183,7 @@ article a {
         font-size: 4em;
         position: absolute;
         display: block;
-        left: 25%;
+        left: 20%;
     }
 
     .portfolio2 {
@@ -1195,7 +1195,7 @@ article a {
         font-size: 4em;
         position: absolute;
         display: block;
-        left: 25%;
+        left: 20%;
         transform: translateY(100px);
     }
 
@@ -1208,7 +1208,7 @@ article a {
         font-size: 4em;
         position: absolute;
         display: block;
-        left: 25%;
+        left: 20%;
         transform: translateY(200px);
 
     }
