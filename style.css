@@ -388,7 +388,7 @@ nav.menu a:after {
 }
 
 .slideshow-container3 {
-     width: 100%;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -403,6 +403,7 @@ nav.menu a:after {
 .more {
     padding-top: 26%;
 }
+
 /* Hide the images by default */
 .mySlides,
 .mySlides2 {
@@ -1100,9 +1101,9 @@ article a {
 
 
 
-.slideshow-container3 {
-    display: none;
-}
+    .slideshow-container3 {
+        display: none;
+    }
 
 
     #overlay {
@@ -1121,6 +1122,8 @@ article a {
         width: 900px;
         height: 460px;
     }
+
+
 
     /* Next & previous buttons */
     .prev,
@@ -1227,7 +1230,7 @@ article a {
 
     .tarot-text p {
         padding: 0;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
         margin: 0;
         width: 100%;
     }
@@ -1244,6 +1247,11 @@ article a {
 
     #tarot {
         padding-left: 12%;
+    }
+
+    .mySlides,
+    .mySlides2 {
+        display: none;
     }
 
 }
@@ -1322,7 +1330,8 @@ video {
     font-size: 2.6em;
     width: 30%;
     padding-bottom: 20px;
-    text-align: left;;
+    text-align: left;
+    ;
     font-weight: 500;
     letter-spacing: 4px;
     text-indent: 2px;
@@ -1348,6 +1357,7 @@ video {
     margin-left: auto;
     margin-right: auto;
 }
+
 .grid-video {
     padding-bottom: 20%;
 }
