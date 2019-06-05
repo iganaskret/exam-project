@@ -40,9 +40,31 @@ main {
     padding-top: 10%;
 }
 
-.portfolio, .portfolio2, .portfolio3 {
+.portfolio,
+.portfolio2,
+.portfolio3,
+.portfolio4,
+.portfolio5 {
     margin-top: 30px;
     margin-bottom: 10px;
+    text-align: left;
+    padding-left: 5%;
+
+}
+
+.portfolio,
+.portfolio2 {
+    display: none;
+}
+
+
+.portfolio3 {
+    display: none;
+}
+
+.portfolio4 {
+    text-align: right;
+    padding-right: 5%;
 }
 
 article p {
@@ -272,9 +294,14 @@ nav.menu a:after {
 
 /*images*/
 .title-image {
-    width: 100%;
-    padding-top: 13%;
+    width: 90%;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
 }
+
 
 .bar-logo {
     width: 40%;
@@ -297,6 +324,8 @@ nav.menu a:after {
     width: 100%;
     height: auto;
 }
+
+
 
 #img1,
 #img2,
@@ -355,10 +384,25 @@ nav.menu a:after {
     position: absolute;
     top: 0;
     left: 0;
+    display: none;
 }
 
-.slideshow-container2 {}
+.slideshow-container3 {
+     width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
+
+.tarot-title2 {
+    opacity: 0;
+    width: 100%;
+}
+
+.more {
+    padding-top: 26%;
+}
 /* Hide the images by default */
 .mySlides,
 .mySlides2 {
@@ -428,6 +472,7 @@ video {
 .name {
     padding-top: 100px;
     padding-bottom: 50px;
+
     font-family: 'Oswald', sans-serif;
     font-size: 2em;
     text-align: center;
@@ -457,12 +502,18 @@ video {
     padding-bottom: 30px;
     padding-top: 30px;
     font-size: 1.1em;
+    padding-right: 5%;
+    padding-left: 3%;
+    width: 90%;
 }
 
 .about-content p {
     padding-left: 10px;
     padding-bottom: 10px;
     border-left: 2px solid black;
+    padding-left: 3%;
+    width: 90%;
+    padding-right: 5%;
 }
 
 .last:after {
@@ -725,8 +776,7 @@ article a {
     #img1,
     #img4,
     .products2,
-    .products3
-     {
+    .products3 {
         height: 400px;
         width: auto;
         padding: 0%;
@@ -736,7 +786,8 @@ article a {
         margin-top: 5%;
     }
 
-#img1, #img4 {
+    #img1,
+    #img4 {
         height: 500px;
 
     }
@@ -751,11 +802,12 @@ article a {
 
     div.text {
 
-        transform: translate(-5%,-5%);
+        transform: translate(-5%, -5%);
 
     }
 
-    .modal-button a, .button a {
+    .modal-button a,
+    .button a {
         float: inherit;
     }
 
@@ -768,8 +820,9 @@ article a {
     div.products3 img {
         height: 500px;
         width: auto;
-       padding: 0%;
+        padding: 0%;
     }
+
     .hide-small {
         display: block;
         text-transform: uppercase;
@@ -1042,11 +1095,14 @@ article a {
         margin-top: auto;
         margin-bottom: auto;
         padding: 0;
+        display: block;
     }
 
-    .mySlides2 {
-        display: none;
-    }
+
+
+.slideshow-container3 {
+    display: none;
+}
 
 
     #overlay {
@@ -1127,7 +1183,7 @@ article a {
         left: 25%;
     }
 
-     .portfolio2 {
+    .portfolio2 {
         font-family: 'Oswald', sans-serif;
         letter-spacing: 6px;
         color: white;
@@ -1140,7 +1196,7 @@ article a {
         transform: translateY(100px);
     }
 
-     .portfolio3 {
+    .portfolio3 {
         font-family: 'Oswald', sans-serif;
         letter-spacing: 6px;
         color: white;
@@ -1151,8 +1207,44 @@ article a {
         display: block;
         left: 25%;
         transform: translateY(200px);
+
     }
 
+    .portfolio4,
+    .portfolio5 {
+        display: none;
+    }
+
+    .grid-video {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 100px;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .tarot-text p {
+        padding: 0;
+        padding-bottom: 20px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .grid-video video {
+        width: 100%;
+    }
+
+    .tarot-text h1 {
+        padding: 0;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+
+    #tarot {
+        padding-left: 12%;
+    }
 
 }
 
@@ -1218,30 +1310,23 @@ button {
 
 /*video*/
 
-.grid-video {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 100px;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 0;
-    padding-top: 0;
-}
+
 
 video {
-    width: 100%;
+    width: 90%;
     display: block;
+    padding-left: 5%
 }
 
 #tarot {
     font-size: 2.6em;
     width: 30%;
     padding-bottom: 20px;
-    text-align: center;
+    text-align: left;;
     font-weight: 500;
     letter-spacing: 4px;
     text-indent: 2px;
-    margin-left: 15%;
+    margin-left: 5%;
 }
 
 .tarot-text p {
@@ -1249,15 +1334,24 @@ video {
     padding-bottom: 20px;
     margin: 0;
     width: 100%;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tarot-text h1 {
-    padding: 0;
-    margin: 0;
+    padding-top: 10px;
     padding-bottom: 10px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-video {
+    padding-bottom: 20%;
 }
 
-}
 
 /* animation svg */
 svg {
@@ -1307,7 +1401,7 @@ path {
     position: relative;
 
     width: 100%;
-   z-index: 0;
+    z-index: 0;
 
 }
 
@@ -1454,4 +1548,3 @@ path {
     border: 2px solid black;
     font-weight: 600;
 }
-
