@@ -1,3 +1,4 @@
+/* GENERAL */
 * {
     margin: 0;
     padding: 0;
@@ -39,6 +40,8 @@ main {
     padding-bottom: 18%;
     padding-top: 10%;
 }
+
+/* HOMEPAGE MOBILE */
 
 .portfolio,
 .portfolio2,
@@ -88,6 +91,8 @@ article a {
     line-height: 200%;
 }
 
+/* COLLECTION PAGE MOBILE */
+
 .collection {
     display: block;
     width: 100%;
@@ -132,7 +137,8 @@ button:hover {
     font-weight: 500;
 }
 
-/*burger menu icon*/
+/* BURGER MENU */
+
 .visuallyHidden {
     position: fixed;
     overflow: hidden;
@@ -210,7 +216,7 @@ button:hover {
 }
 
 
-/*burger menu navigation*/
+/* BURGER MENU NAVIGATION */
 
 .burger-menu {
     position: fixed;
@@ -259,7 +265,7 @@ header {
     width: 100%;
 }
 
-/*bootom navigation*/
+/* BOTTOM NAVIGATION MOBILE */
 
 nav#bottom-nav {
     width: 100%;
@@ -290,9 +296,8 @@ nav.menu a:after {
     transition: 0.4s;
 }
 
+/* IMAGES */
 
-
-/*images*/
 .title-image {
     width: 90%;
     padding-top: 5%;
@@ -301,7 +306,6 @@ nav.menu a:after {
     display: block;
 
 }
-
 
 .bar-logo {
     width: 40%;
@@ -324,8 +328,6 @@ nav.menu a:after {
     width: 100%;
     height: auto;
 }
-
-
 
 #img1,
 #img2,
@@ -378,7 +380,8 @@ nav.menu a:after {
     border-bottom: 3px solid;
 }
 
-/* Slideshow container */
+/* SLIDESHOW CONTAINER */
+
 .slideshow-container1 {
     width: 100%;
     position: absolute;
@@ -393,7 +396,6 @@ nav.menu a:after {
     top: 0;
     left: 0;
 }
-
 
 .tarot-title2 {
     opacity: 0;
@@ -437,8 +439,6 @@ nav.menu a:after {
     display: none;
 }
 
-
-
 /* Position the "next button" to the right */
 .next {
     right: 0;
@@ -469,7 +469,7 @@ video {
     padding-left: 5%;
 }
 
-/* about me page */
+/* ABOUT MOBILE  */
 .name {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -528,7 +528,7 @@ video {
     transform: translateY(100px);
 }
 
-/* form */
+/* FORM */
 
 .form-top {
     width: 400px;
@@ -639,6 +639,8 @@ ol a:hover:after {
     font-weight: 600;
 }
 
+/*MODAL SIZES*/
+
 .modal-sizes-bckg {
     position: fixed;
     top: 0;
@@ -706,7 +708,7 @@ article a {
     width: 100%;
 }
 
-
+/* FORM- IMPLEMENTED*/
 @-moz-document url-prefix() {
     .form-control {
         height: auto;
@@ -730,7 +732,7 @@ article a {
     display: none;
 }
 
-
+/*BIG SCREENS */
 @media screen and (min-width: 1000px) {
     .title-image {
         display: block;
