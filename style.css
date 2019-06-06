@@ -93,6 +93,10 @@ article a {
 
 /* COLLECTION PAGE MOBILE */
 
+.my-collections-btn {
+    text-transform: uppercase;
+    background-color: #d1bede;
+}
 .collection {
     display: block;
     width: 100%;
@@ -134,7 +138,6 @@ button:hover {
     left: 32%;
     top: 45%;
     text-align: center;
-    font-weight: 500;
 }
 
 /* BURGER MENU */
