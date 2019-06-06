@@ -1310,12 +1310,12 @@ button {
     padding-top: 0px;
     padding-bottom: 10px;
     z-index: 1;
+    font-size: 2em;
 }
 
 #bottom-nav a {
     display: inline-block;
     color: white;
-    font-size: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
